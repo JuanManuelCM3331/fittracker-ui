@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitTracker - Workout Management</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <span>FitTracker</span>
+            </div>
+            <ul>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Workouts</a></li>
+                <li><a href="#">Progress</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+            <div>
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="User Avatar" width="32" height="32">
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Welcome back, John!</h1>
+            <p>Here’s your activity summary for today.</p>
+            <div>
+                <div>
+                    <h2>Steps</h2>
+                    <p>8,420</p>
+                </div>
+                <div>
+                    <h2>Calories</h2>
+                    <p>1,230 kcal</p>
+                </div>
+                <div>
+                    <h2>Workout Time</h2>
+                    <p>45 min</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Today's Workout</h2>
+            <div>
+                <div>
+                    <h3>Full Body HIIT</h3>
+                    <p>Duration: 30 min</p>
+                    <p>Intensity: High</p>
+                    <button>Start Workout</button>
+                </div>
+                <div>
+                    <h3>Yoga Stretch</h3>
+                    <p>Duration: 15 min</p>
+                    <p>Intensity: Low</p>
+                    <button>Start Workout</button>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Progress Overview</h2>
+            <div>
+                <div>
+                    <h4>Weekly Goal</h4>
+                    <progress value="60" max="100"></progress>
+                    <span>60%</span>
+                </div>
+                <div>
+                    <h4>Calories Burned</h4>
+                    <p>5,600 kcal</p>
+                </div>
+                <div>
+                    <h4>Workouts Completed</h4>
+                    <p>5/7</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 FitTracker. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+
+

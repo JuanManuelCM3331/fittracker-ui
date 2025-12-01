@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Workouts - FitTracker</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo_placeholder.png" alt="FitTracker Logo">
+                <span>FitTracker</span>
+            </div>
+            <div class="nav-links">
+                <a href="#">Dashboard</a>
+                <a href="#" class="active">Workouts</a>
+                <a href="#">Schedule</a>
+                <a href="#">Reports</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div>
+                <h1>My Workouts</h1>
+                <p>Manage and track your workout plans</p>
+            </div>
+            <button class="create-workout-btn">+ Create Workout</button>
+        </section>
+
+        <section class="filters-search">
+            <input type="search" placeholder="Search workouts...">
+            <select name="all-types">
+                <option value="all">All Types</option>
+            </select>
+            <select name="most-recent">
+                <option value="recent">Most Recent</option>
+            </select>
+        </section>
+
+        <section class="workout-cards">
+            <div class="card">
+                <div>
+                    <h3>Upper Body Strength</h3>
+                    <span>...</span>
+                </div>
+                <p>Strength Training</p>
+                <ul>
+                    <li>40-60 minutes</li>
+                    <li>6 exercises</li>
+                    <li>Last performed Today</li>
+                </ul>
+                <div>
+                    <button>Start Workout</button>
+                    <button>Icon</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div>
+                    <h3>Leg Day Power</h3>
+                    <span>...</span>
+                </div>
+                <p>Strength Training</p>
+                <ul>
+                    <li>50-70 minutes</li>
+                    <li>8 exercises</li>
+                    <li>Last performed 7 days ago</li>
+                </ul>
+                <div>
+                    <button>Start Workout</button>
+                    <button>Icon</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div>
+                    <h3>HIIT Cardio Blast</h3>
+                    <span>...</span>
+                </div>
+                <p>HIIT</p>
+                <ul>
+                    <li>25-30 minutes</li>
+                    <li>5 exercises</li>
+                    <li>Last performed 1 week ago</li>
+                </ul>
+                <div>
+                    <button>Start Workout</button>
+                    <button>Icon</button>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
